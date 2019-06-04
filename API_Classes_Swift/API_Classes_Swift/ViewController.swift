@@ -46,3 +46,49 @@ class ViewController: UIViewController {
     }
 }
 
+
+
+//MARK:- Set Image in ImageView Method
+///
+/// - Parameter strURL : String
+/// - Parameter imageView : UIImageView
+/// - Parameter placeHolder Image : UIImage
+//class func setImageWithURL(strURL : String?, imgView : UIImageView?, placeHolder : UIImage?) {
+//    if strURL != nil {
+//        let imgURL = NSURL(string: strURL!)
+//        if imgURL != nil {
+//            imgView?.af_setImage(withURL: imgURL! as URL, placeholderImage: placeHolder, filter: nil, progress: nil, progressQueue: .main, imageTransition: .noTransition, runImageTransitionIfCached: false, completion: { (response) in })
+//        }else{
+//            imgView?.image = placeHolder
+//        }
+//    }else{
+//        imgView?.image = placeHolder
+//    }
+//}
+//
+////MARK:- Set Image in UIButton Method
+/////
+///// - Parameter strURL : String
+///// - Parameter imageView : UIImageView
+///// - Parameter placeHolder Image : UIImage
+//class func setImageWithURL(strURL : String?, btn : UIButton?, placeHolder : UIImage?) {
+//    if strURL != nil {
+//        let imgURL = NSURL(string: strURL!)
+//        if imgURL != nil {
+//            if placeHolder != nil {
+//                btn?.af_setBackgroundImage(for: .normal, url: imgURL! as URL, placeholderImage: placeHolder, filter: nil, progress: nil, progressQueue: .main, completion: { (response) in
+//                })
+//                btn?.imageView?.contentMode = .scaleAspectFill
+//            }else{
+//                btn?.af_setBackgroundImage(for: .normal, url: imgURL! as URL)
+//                btn?.imageView?.contentMode = .scaleAspectFill
+//            }
+//        }else{
+//            btn?.setImage(placeHolder, for: .normal)
+//            btn?.imageView?.contentMode = .scaleAspectFill
+//        }
+//    }else{
+//        btn?.setImage(placeHolder, for: .normal)
+//        btn?.imageView?.contentMode = .scaleAspectFill
+//    }
+//}
